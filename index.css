@@ -1,0 +1,24 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color-scheme: light dark;
+  color: rgb(0, 0, 0);
+  background-color: #E2F1E7;
+  margin: 0;
+  --principal-color: rgb(38, 38, 236);
+}
+
+*{
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-smile{
+  font-size: 0.8em;
+}

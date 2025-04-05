@@ -1,0 +1,40 @@
+.formulario{
+    align-items: center;
+    width: 30vw;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+}
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    width: 100%;
+}
+.formulario label {
+    margin-top: 10px;
+}
+.formulario input {
+    all: unset;
+    border: solid 1px black;
+    margin-top: 5px;
+    padding: 10px 2px;
+    overflow:visible;
+
+}
+.formulario button {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: var(--principal-color);
+    color: white;
+    border: none;
+    transition: 0.5s ease;
+}
+
+.formulario button:active{
+    transform: scale(0.9);
+}
+
+.formulario form p a{
+    color: blue;
+}
