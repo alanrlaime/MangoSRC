@@ -14,7 +14,7 @@ function App() {
       <Head />
 
       <main>
-      <h1 className='gatos'>Gatos con droga</h1>
+      <h1 className='gatos'>Otro tipo de gatos</h1>
       <LoginApp />
       <CartApp />
       </main>
