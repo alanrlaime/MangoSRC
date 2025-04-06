@@ -1,16 +1,27 @@
 import './HeadStyle.css'
+import { NavLink, Link } from "react-router";
 
 function Head() {
   return (
     <>
+
+<nav>
+      {/* NavLink makes it easy to show active states */}
+      <NavLink
+        to="/"
+        className={({ isActive }) =>
+          isActive ? "active" : ""
+        }
+      >
+      </NavLink>
+    </nav>
       <nav>
         <ul>
-              <li><a href="" data-title='gatos'>Inicio</a></li>
-              <li><a href="">Articulos</a></li>
-              <li><a href="">Noticias y Foros</a></li>
-              <li><a href="">Registro</a></li>
-              <li></li>
-          </ul>
+            <li><Link to="/">Inicio</Link></li>
+            <li><Link to="/art">Articulos</Link></li>
+            <li><Link to="/noticias">Noticias y Foros</Link></li> 
+            <li><Link to="/iniciarsesion">Registro</Link></li>
+        </ul>
       </nav>
      <header>
         <h1>Titulo de la pagina</h1>
