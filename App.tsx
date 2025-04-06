@@ -1,10 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Head from './Pages/Head/HeadApp.tsx'
-import LoginApp from './Components/LoginApp.tsx'
-import CartApp from './Components/CartApp.tsx'
+import Head from './Components/Head/HeadApp'
+import LoginApp from './Components/LoginApp'
+import CartApp from './Components/CartApp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +12,7 @@ function App() {
       <Head />
 
       <main>
-      <h1 className='gatos'>Otro tipo de gatos</h1>
+      <h1 className='gatos'>Otro tipo de gatos Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dicta maxime. Commodi libero fugit dignissimos iure labore sit est. Dolorum saepe consequuntur ducimus, beatae tenetur voluptates. Dicta nostrum eum culpa.</h1>
       <LoginApp />
       <CartApp />
       </main>
