@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <Head />
+      <Head promp='inicio'/>
 
       <main>
       <h1 className='gatos'>Otro tipo de gatos Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dicta maxime. Commodi libero fugit dignissimos iure labore sit est. Dolorum saepe consequuntur ducimus, beatae tenetur voluptates. Dicta nostrum eum culpa.</h1>

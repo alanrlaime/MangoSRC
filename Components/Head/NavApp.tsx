@@ -15,7 +15,7 @@ function NavApp() {
                 </NavLink>
                 <ul>
                     <li><Link to="/">Inicio</Link></li>
-                    <li><Link to="/art">Articulos</Link></li>
+                    <li><Link to="/articulos">Articulos</Link></li>
                     <li><Link to="/noticias">Noticias y Foros</Link></li>
                     <li><Link to="/iniciarsesion">Registro</Link></li>
                 </ul>
