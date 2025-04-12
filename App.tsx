@@ -6,6 +6,7 @@ import NoticiasApp from './Pages/NoticiasApp.tsx'
 import RegistroApp from './Pages/RegistroApp.tsx'
 import HeadApp from './Components/Head/HeadApp.tsx'
 import NavApp from './Components/Head/NavApp.tsx'
+import FootApp from './Components/Footer/FootApp.tsx'
 
 import {Routes, Route} from "react-router";
 import InicioApp from './Pages/InicioApp.tsx'
@@ -17,11 +18,11 @@ function App() {
       case "/":
         return "inicio";
       case "/articulos":
-        return "ArticuloApp";
+        return "articulo";
       case "/noticias":
         return "noticia";
       case "/iniciarsesion":
-        return "iniciarsecion";
+        return "login";
       default:
         return "inicio";
     }};
@@ -37,6 +38,7 @@ function App() {
         <Route path="/iniciarsesion" element={<RegistroApp />} />
       </Routes>
       </main>
+      <FootApp />
     </>
   )
 }

@@ -51,9 +51,12 @@ header{
 .inicio{
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url(../../../public/img-1.jpg) no-repeat center center/cover;
 }
-.ArticuloApp{
+.articulo{
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url(../../../public/img-4.jpg) no-repeat center center/cover;
 }
 .noticia{
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url(../../../public/img-7.jpg) no-repeat center center/cover;
+}
+.login{
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url(../../../public/img-10.jpg) no-repeat center center/cover;
 }

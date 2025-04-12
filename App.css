@@ -1,3 +1,5 @@
 main{
-  padding : 0 25vh;
+  padding : 10vh 20vh;
+  display: grid;
+  gap: 10vh;
 }

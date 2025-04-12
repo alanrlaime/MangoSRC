@@ -3,7 +3,9 @@ import LoginApp from "../Components/LoginApp";
 function RegistroApp() {
     return ( 
         <>
-            <LoginApp></LoginApp>
+            <section>
+            <LoginApp />
+            </section>
         </>
      );
 }
