@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useLocation } from 'react-router-dom'
 import './App.css'
 import ArticulosApp from './Pages/ArticulosApp.tsx'
 import NoticiasApp from './Pages/NoticiasApp.tsx'
@@ -6,16 +7,28 @@ import RegistroApp from './Pages/RegistroApp.tsx'
 import HeadApp from './Components/Head/HeadApp.tsx'
 import NavApp from './Components/Head/NavApp.tsx'
 
-import { BrowserRouter, Routes, Route, RouterProvider } from "react-router";
+import {Routes, Route} from "react-router";
 import InicioApp from './Pages/InicioApp.tsx'
 
 function App() {
-  const [act, setAct] = useState("inicio")
-
+  const location = useLocation(); 
+  const getLocal = () => {
+    switch (location.pathname) {
+      case "/":
+        return "inicio";
+      case "/articulos":
+        return "ArticuloApp";
+      case "/noticias":
+        return "noticia";
+      case "/iniciarsesion":
+        return "iniciarsecion";
+      default:
+        return "inicio";
+    }};
   return (
     <>
       <NavApp />
-      <HeadApp promp={Route.name}/>
+      <HeadApp promp={getLocal()}/>
       <main>
       <Routes>
         <Route path="/" element={<InicioApp /> } />
