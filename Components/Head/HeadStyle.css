@@ -1,12 +1,13 @@
 nav{
     width: 100% ;
     box-sizing: border-box;
-    background-color: #243642;
+    background-color: #000000;
     position:fixed;
     z-index: 1;
     display: flex;
     justify-content: end;
     padding: 10px 60px;
+    transition: 0.3s;
 }
 
 nav ul{
@@ -43,14 +44,16 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: white;
+    padding: 0 30px;
 }
 
 .inicio{
-    background: url(../../../public/img-1.jpg) no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url(../../../public/img-1.jpg) no-repeat center center/cover;
 }
 .ArticuloApp{
-    background: url(../../../public/img-4.jpg) no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url(../../../public/img-4.jpg) no-repeat center center/cover;
 }
 .noticia{
-    background: url(../../../public/img-7.jpg) no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url(../../../public/img-7.jpg) no-repeat center center/cover;
 }

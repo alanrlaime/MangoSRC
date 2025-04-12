@@ -1,7 +1,6 @@
 import HeadApp from "../Components/Head/HeadApp";
 
 function ArticuloApp() {
-    console.log(ArticuloApp.name)
     return ( 
         <>
         <HeadApp promp={ArticuloApp.name}/>
